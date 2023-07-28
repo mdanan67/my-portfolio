@@ -1,0 +1,107 @@
+body{
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    border: 0%;
+    
+
+}
+.button{
+    border: 2px solid burlywood;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    background-image: linear-gradient( rgb(107, 107, 226),rgb(212, 73, 73));
+    color: azure;
+    font-size: 25px;
+}
+.sectionbottom{
+
+    height: 900px;
+    background-image: url('exp-bg.png');
+    background-repeat: no-repeat;
+    background-position: left ;
+}
+.name{
+    color: cadetblue;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5% ;
+    
+}
+.half-width img{
+    width: 100%;
+}
+
+
+section{
+    padding-bottom: 100px;
+    
+    
+    
+}
+
+.back{
+    
+    height: 800px;
+    margin-top: 150px;
+    background-image: url('dream-bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-bottom: 150px;
+
+}
+img{
+    transition: transform 0.3s;
+    
+    
+}
+img:hover{
+    transform: scale(1.1);
+}
+a:hover{
+    transform: scale(1.1);
+
+}
+.thirdp{
+    font-size: 25px;
+}
+.thirddiv{
+
+    box-shadow: 10px 10px 40px;
+    border-radius: 10px;
+    height: 60%;
+    padding: 25px;
+}
+    
+    
+   
+}
+.lastsection{
+    height: 800px;
+    
+}
+#rediant{
+    border-left: 10px solid;
+    border-image: linear-gradient(rgb(118, 151, 28) ,rgb(131, 47, 33)
+    );
+    border-image-slice: 1;
+    }
+#lastdev{
+        border-left: 10px solid;
+        border-image: linear-gradient(180deg,rgb(11, 129, 184), rgb(110, 64, 55));
+    
+        border-image-slice: 1;
+
+    }
+    footer{
+        color: rgb(33, 146, 89);
+        text-align: center;
+        font-size: 20px;
+    }
+    .thirddiv:hover{
+
+        transition: transform 0.3s;
+        transform: scale(1.015);
+    }
